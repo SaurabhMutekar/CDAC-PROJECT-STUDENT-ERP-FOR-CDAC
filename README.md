@@ -44,13 +44,13 @@ The backend is built with a secure, stateless RESTful API using Spring Boot, whi
 
 - Frontend: HTML5, CSS3, JavaScript, React
 
-##  Design
+## Design
 
 The UI/UX for this project was designed in Figma. You can view the complete design file, including components, wireframes, and prototypes, here:
 
 [**View Figma Design File**](https://www.figma.com/design/OXH5baVMXqzpIT1g49ek9O/CDAC-ERP?node-id=4023-7063&p=f&t=brHIg17ewuVR0Sz6-0)
 
-#  Getting Started
+# Getting Started
 
 Follow these instructions to get a local copy up and running for development and testing purposes.
 
@@ -126,9 +126,9 @@ npm install
 npm run dev
 ```
 
-The React application will start on http://localhost:5173 (or another port specified by Vite).
+The React application will start on http://localhost:5173 (or another port specified by Vite. Eg http://localhost:3000).
 
-##  API Endpoints
+## API Endpoints
 
 A complete list of all available API endpoints is provided below. All administrative endpoints under `/api/admin/**` and student endpoints under `/api/student/**` require a valid JWT Bearer Token for authorization.
 
